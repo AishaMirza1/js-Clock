@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Barlow+Condensed:wght@200&family=Merriweather:ital@1&family=Poppins:wght@200&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #191919;
+    font-family: 'Barlow Condensed';
+    box-sizing: border-box;
+   
+}
+
+.days{ 
+    text-align: center;
+    position: absolute; 
+    top: 30%; 
+    left: 33%; 
+    font-size: 2.6rem;
+    margin: 0;
+    padding: 0;
+    font-weight:900;
+
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+ul li{ 
+    position: relative;
+    top: 50%;
+    display: none;
+      
+     
+}
+
+
+.active-color{ 
+    color: #00FF97
+}
+
+.clock{
+    color: #00FF97;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 16%;
+    font-size: 3.2rem;
+    letter-spacing: .3rem;
+}
+button{
+    background: transparent;
+    border: none;
+    color:#8a8a8a ;
+    font-size: 2rem;
+}
+.btn1{
+    position: absolute;
+    top: 60%;
+    left:39% ;
+}
+.btn2{
+    position: absolute;
+    top: 67%;
+    left:39% ;
+}
+
+@media (max-width:360px) {
+    .clock{
+        left: 4%;
+    }
+    
+}
+@media (max-width:384px) {
+    .clock{
+        left: 7%;
+    }
+    
+}
+@media (max-width:390px) {
+    .clock{
+        left: 6.5%;
+    }
+    
+}
+
+@media (min-width:505px) and (max-width:520px) {
+
+    .clock{
+        left: 18%;
+        top: 39%;
+    }
+    .btn1{
+        position: absolute;
+        top: 60%;
+        left:37% ;
+    }
+    .btn2{
+        position: absolute;
+        top: 67%;
+        left:37% ;
+    }
+    .days{
+        left: 35%;
+    }
+}
+@media (min-width:621px) and (max-width:650px) {
+
+    .days{
+        left: 3%;
+        font-size: 1.5rem;
+    }
+    li+li{
+        margin-left: 9.5px;
+    }
+    ul li{ 
+        position: relative;
+        top: 50%;
+        display: block;
+          
+         
+    }
+    .clock{
+        font-size: 3.5rem;
+        left: 17%;
+        top: 32%;
+        letter-spacing: 1rem;
+    }
+    .btn1{
+        position: absolute;
+        top: 55%;
+        left:26% ;
+    }
+    .btn2{
+        position: absolute;
+        top: 55%;
+        left:62% ;
+    }
+}
+
+@media (min-width:651px) and (max-width:675px) {
+
+    .days{
+        left: 3.5%;
+        font-size: 1.6rem;
+    }
+    li+li{
+        margin-left: 9.5px;
+    }
+    ul li{ 
+        position: relative;
+        top: 50%;
+        display: block;
+          
+         
+    }
+    .clock{
+        font-size: 3.5rem;
+        left: 17%;
+        top: 32%;
+        letter-spacing: 1rem;
+    }
+    .btn1{
+        position: absolute;
+        top: 55%;
+        left:26% ;
+    }
+    .btn2{
+        position: absolute;
+        top: 55%;
+        left:62% ;
+    }
+}
+@media (min-width:676px) and (max-width:809px) {
+    .days{
+        left: 3.5%;
+        font-size: 1.6rem;
+    }
+    li+li{
+        margin-left: 9.5px;
+    }
+    ul li{ 
+        
+        top: 50%;
+        display: block;
+          
+    }
+    .clock{
+        font-size: 3.8rem;
+        left: 17%;
+        top: 32%;
+        letter-spacing: 1rem;
+    }
+    .btn1{
+        
+        top: 50%;
+        left:23% ;
+    }
+    .btn2{
+      
+        top: 50%;
+        left:62% ;
+    }
+}
+@media (min-width:800px) {
+    .days{
+        left: 3.9%;
+        font-size: 1.9rem;
+    }
+    li+li{
+        margin-left: 10px;
+    }
+    ul li{ 
+        
+        top: 50%;
+        display: block;
+          
+    }
+    .clock{
+        font-size: 4.8rem;
+        left: 17%;
+        top: 32%;
+        letter-spacing: 1rem;
+    }
+    .btn1{
+        
+        top: 60%;
+        left:26% ;
+    }
+    .btn2{
+       
+        top: 60%;
+        left:62% ;
+    }
+}
+@media (min-width:851px) {
+    .days{
+        left: 6%;
+        font-size: 1.9rem;
+    }
+    li+li{
+        margin-left: 10px;
+    }
+    ul li{ 
+        position: relative;
+        top: 50%;
+        display: block;
+          
+    }
+    .btn1{
+        
+        top: 60%;
+        left:30% ;
+    }
+    .btn2{
+        
+        top: 60%;
+        left:60% ;
+    }
+}
+
+@media (min-width:900px) {
+    .days{
+        left: 8%;
+        font-size: 1.9rem;
+    }
+    li+li{
+        margin-left: 11px;
+    }
+    
+}
+@media (min-width:1000px) {
+    .days{
+        left: 10%;
+        font-size: 2rem;
+    }
+    li+li{
+        margin-left: 19px;
+    }
+    .clock{
+        font-size: 4.99rem;
+        left: 22%;
+        
+    }
+    .btn1{
+        
+        top: 60%;
+        left:30% ;
+    }
+    .btn2{
+        
+        top: 60%;
+        left:60% ;
+    }
+}
+
